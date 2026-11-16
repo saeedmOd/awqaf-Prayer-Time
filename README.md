@@ -15,7 +15,7 @@
 
 ```bash
 git clone https://github.com/saeedmOd/awqaf-Prayer-Time.git
-cd awqaf-prayer-times-ha
+cd awqaf-Prayer-Time
 
 cp config.example.env config.env
 nano config.env                     # عنوان وسيط MQTT ومعرّف المدينة
