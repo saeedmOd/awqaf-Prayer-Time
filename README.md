@@ -14,7 +14,7 @@
 ## 1) التثبيت السريع
 
 ```bash
-git clone https://github.com/saeedmOd/awqaf-prayer-times-ha.git
+git clone https://github.com/saeedmOd/awqaf-Prayer-Time.git
 cd awqaf-prayer-times-ha
 
 cp config.example.env config.env
