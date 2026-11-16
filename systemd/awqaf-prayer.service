@@ -1,0 +1,10 @@
+[Unit]
+Description=نشر أوقات الصلاة الرسمية (أوقاف الإمارات) على MQTT
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=__USER__
+WorkingDirectory=__TARGET__
+ExecStart=/usr/bin/python3 __TARGET__/prayer_alain.py
